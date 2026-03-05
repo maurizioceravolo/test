@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Firenze",
+        "popupHtml": "<div style=\"font-family:Arial; font-size:13px;\"><h2 style='margin:0 0 6px 0;'>Firenze</h2><p><b>Città:</b> Firenze</p><p><b>Descrizione:</b> Punto di prova per popup HTML elaborato.</p><ul><li>Latitudine: 43.7696</li><li>Longitudine: 11.2558</li></ul></div>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2558, 43.7696]
+      }
+    }
+  ]
+}
