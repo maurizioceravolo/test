@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.4964, 41.9028]
+      },
+      "properties": {
+        "prop0": "Roma",
+        "color": "#FF0000",
+        "icon_type": "star",
+        "popup_html": "<b>Roma</b><br>Punto rosso posizionato sulla capitale."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.6869, 45.0703]
+      },
+      "properties": {
+        "prop0": "Torino",
+        "color": "#00AAFF",
+        "icon_type": "circle",
+        "popup_html": "<b>Torino</b><br>Punto aggiuntivo con colore personalizzato."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3426, 44.4949]
+      },
+      "properties": {
+        "prop0": "Bologna",
+        "color": "#FF00FF",
+        "icon_type": "diamond",
+        "popup_html": "<b>Bologna</b><br>Secondo punto con colore e icona diversi."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2558, 43.7696]
+      },
+      "properties": {
+        "prop0": "Firenze",
+        "color": "#00CC66",
+        "icon_type": "square",
+        "popup_html": "<b>Firenze</b><br>Punto aggiuntivo con colore personalizzato."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.8719, 41.1171]
+      },
+      "properties": {
+        "prop0": "Bari",
+        "color": "#FF9900",
+        "icon_type": "triangle",
+        "popup_html": "<b>Bari</b><br>Punto aggiuntivo con colore personalizzato."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [13.3615, 38.1157]
+      },
+      "properties": {
+        "prop0": "Palermo",
+        "color": "#3366FF",
+        "icon_type": "hexagon",
+        "popup_html": "<b>Palermo</b><br>Punto aggiuntivo con colore e icona differenti."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [11.25, 43.77],
+          [11.50, 43.90],
+          [11.80, 43.70],
+          [12.10, 43.85]
+        ]
+      },
+      "properties": {
+        "prop0": "Linea Toscana",
+        "prop1": 0.0,
+        "popup_html": "<b>Linea</b><br>Linea posizionata in Toscana."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [7.60, 45.00],
+            [8.20, 45.00],
+            [8.20, 45.50],
+            [7.60, 45.50],
+            [7.60, 45.00]
+          ]
+        ]
+      },
+      "properties": {
+        "prop0": "Poligono Piemonte",
+        "prop1": { "this": "that" },
+        "popup_html": "<b>Poligono</b><br>Poligono posizionato in Piemonte."
+      }
+    }
+  ]
+}
