@@ -88,6 +88,20 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [12.3155, 45.4408]
+      },
+      "properties": {
+        "prop0": "Venezia",
+        "color": "#CC0000",
+        "icon_type": "pin",
+        "popup_html": "<b>Venezia</b><br>Nuovo punto aggiunto sulla città lagunare."
+      }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [11.25, 43.77],
